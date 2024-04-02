@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Checkout</title>
+        <link rel="stylesheet" href="styles/pages/checkout.css">
+        <link rel="stylesheet" href="styles/shared/header.css">
+        <link rel="stylesheet" href="styles/shared/general.css">
+        <link rel="stylesheet" href="styles/shared/checkout-header.css">
+    </head>
+    <body>
+        <div class="checkout-header">
+            <div class="checkout-left-section">
+                <a href="amazon.html" class="header-link">
+                    <img class="amazon-logo"
+                     src="images/amazon-logo.png">
+                <img class="amazon-logo-mobile"
+                 src="images/amazon-mobile-logo.png">
+                </a>
+            </div>
+            
+            <div class="checkout-middle-section">
+                <div>Checkout(<span class="js-checkout-quantity"></span>)</div>
+            </div>
+
+            <div class="checkout-right-section">
+                <img class="checkout-lock-icon" src="images/icons/checkout-lock-icon.png">
+            </div>
+
+        </div>
+
+        <div class="main">
+            <h2>Review Order</h2>
+
+            
+            <div class="checkout-grid">
+                <div class="order-summary js-order-summary">
+                </div>
+                
+                <div class="payment-summary">
+                    <div class="payment-summary-title">
+                      Order Summary
+                    </div>
+          
+                    <div class="payment-summary-row">
+                      <div>Items (3):</div>
+                      <div class="payment-summary-money">$42.75</div>
+                    </div>
+          
+                    <div class="payment-summary-row">
+                      <div>Shipping &amp; handling:</div>
+                      <div class="payment-summary-money">$4.99</div>
+                    </div>
+          
+                    <div class="payment-summary-row subtotal-row">
+                      <div>Total before tax:</div>
+                      <div class="payment-summary-money">$47.74</div>
+                    </div>
+          
+                    <div class="payment-summary-row">
+                      <div>Estimated tax (10%):</div>
+                      <div class="payment-summary-money">$4.77</div>
+                    </div>
+          
+                    <div class="payment-summary-row total-row">
+                      <div>Order total:</div>
+                      <div class="payment-summary-money">$52.51</div>
+                    </div>
+          
+                    <button class="place-order-button button-primary">
+                      Place your order
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+      <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+
+      <script type="module" src="/scripts/checkout.js"></script>
+    </body>
+</html>

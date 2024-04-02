@@ -1,0 +1,40 @@
+
+.checkout-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.checkout-left-section{
+    display: flex;
+    align-items: center;
+}
+
+.checkout-left-section .amazon-logo{
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 11px;
+}
+.checkout-left-section .amazon-mobile-logo{
+    display: none;
+    
+}
+
+.checkout-middle-section div{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.checkout-middle-section div span{
+    color: rgb(10, 70, 100);
+}
+
+.checkout-right-section{
+    margin-right: 30px;
+}
